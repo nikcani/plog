@@ -1,19 +1,29 @@
-# Please see the documentation for all configuration options:
-# https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
-
 version: 2
 updates:
+  - package-ecosystem: "composer"
+    directory: "/"
+    schedule:
+      timezone: "Europe/Berlin"
+      interval: "weekly"
+      day: "wednesday"
+      time: "07:00"
+    assignees:
+      - nikcani
+    groups:
+      composer:
+        patterns:
+          - "*"
 
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
+      timezone: "Europe/Berlin"
       interval: "weekly"
-    labels:
-      - "dependencies"
-
-  - package-ecosystem: "composer"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    labels:
-      - "dependencies"
+      day: "wednesday"
+      time: "07:00"
+    assignees:
+      - nikcani
+    groups:
+      github-actions:
+        patterns:
+          - "*"
