@@ -2,6 +2,11 @@
 
 All notable changes to `plog` will be documented in this file.
 
+## 0.2.1 - 2026-07-06
+
+- Fix CI test failure when no code coverage driver is available (coverage is now only collected when explicitly requested)
+- Reach 100% test coverage
+
 ## 0.2.0 - 2026-07-06
 
 - Require PHP 8.3+ (drops PHP 8.2 support)

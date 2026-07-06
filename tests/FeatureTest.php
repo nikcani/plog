@@ -37,3 +37,11 @@ it('can plog object', function () {
 it('can dlog', function () {
     expect(dlog('foo'))->toBeNull();
 });
+
+it('can include the helpers file again without redefining the helpers', function () {
+    require __DIR__.'/../src/helpers.php';
+
+    expect(function_exists('dump_any_val_to_string'))->toBeTrue();
+    expect(function_exists('plog'))->toBeTrue();
+    expect(function_exists('dlog'))->toBeTrue();
+});
