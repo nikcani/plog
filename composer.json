@@ -1,7 +1,7 @@
 {
     "name": "nikcani/plog",
     "description": "simple opinionated laravel logger",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "keywords": [
         "nikcani",
         "laravel",
@@ -24,7 +24,7 @@
         }
     ],
     "require": {
-        "php": "^8.2",
+        "php": "^8.3",
         "spatie/laravel-package-tools": "^1.16",
         "illuminate/contracts": "13.18.1"
     },
