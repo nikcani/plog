@@ -28,7 +28,7 @@ it('can plog model', function () {
 });
 
 it('can plog object', function () {
-    $some_object = new SomeObject();
+    $some_object = new SomeObject;
 
     expect(plog($some_object))
         ->toBe("object|NikCani\Plog\Tests\SomeObject|NikCani\Plog\Tests\SomeObject Object\n(\n)\n");

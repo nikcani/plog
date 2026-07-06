@@ -2,6 +2,4 @@
 
 namespace NikCani\Plog\Tests;
 
-class SomeObject
-{
-}
+class SomeObject {}

@@ -2,6 +2,4 @@
 
 namespace NikCani\Plog;
 
-class Plog
-{
-}
+class Plog {}

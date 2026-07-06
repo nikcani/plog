@@ -1,7 +1,7 @@
 {
     "name": "nikcani/plog",
     "description": "simple opinionated laravel logger",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "keywords": [
         "nikcani",
         "laravel",
@@ -67,7 +67,7 @@
             "@composer run build",
             "@php vendor/bin/testbench serve"
         ],
-        "analyse": "vendor/bin/phpstan analyse",
+        "analyse": "vendor/bin/phpstan analyse --memory-limit=1G",
         "test": "vendor/bin/pest --bail --profile --parallel",
         "test-coverage": "vendor/bin/pest --bail --profile --parallel --coverage --min=100",
         "format": "vendor/bin/pint"
