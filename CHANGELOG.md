@@ -2,6 +2,13 @@
 
 All notable changes to `plog` will be documented in this file.
 
+## 0.2.2 - 2026-07-28
+
+- Loosen `illuminate/contracts` and `orchestra/testbench` from pinned exact versions to caret constraints (`^13.23.0` / `^11.1.0`)
+- Update `spatie/laravel-package-tools` to `^1.93.1`
+- Switch dependency automation from Dependabot to Renovate (shared org config)
+- Update dev tooling: Pest 5, Larastan 3.10, Pint 1.29, PHPStan extensions
+
 ## 0.2.1 - 2026-07-06
 
 - Fix CI test failure when no code coverage driver is available (coverage is now only collected when explicitly requested)
