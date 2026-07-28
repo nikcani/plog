@@ -2,6 +2,11 @@
 
 All notable changes to `plog` will be documented in this file.
 
+## 0.3.0 - 2026-07-28
+
+- Require PHP 8.4+ (drops PHP 8.3 support)
+- CI: test against PHP 8.4–8.5, PHPStan runs on PHP 8.4
+
 ## 0.2.2 - 2026-07-28
 
 - Loosen `illuminate/contracts` and `orchestra/testbench` from pinned exact versions to caret constraints (`^13.23.0` / `^11.1.0`)
